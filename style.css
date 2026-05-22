@@ -15,12 +15,76 @@ body {
     justify-content: center;
 }
 
-.game-link {
+.game-link-cookie-clicker {
     border-radius: 50px;
     display: flex;
     width: 150px;
     height: 150px;
-    background-color: blue;
+    background-color: light-blue;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+}
+
+.game-link-geometry-dash {
+    border-radius: 50px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: light-blue;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+}
+
+.game-link-bitlife {
+    border-radius: 50px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: light-blue;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+}
+
+.game-link-clustertruck {
+    border-radius: 50px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: light-blue;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+}
+
+.game-link-drive-mad {
+    border-radius: 50px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: light-blue;
     color: #000000;
     text-decoration: none;
     font-weight: bold;
