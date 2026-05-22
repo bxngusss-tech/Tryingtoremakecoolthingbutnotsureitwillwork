@@ -96,4 +96,5 @@ body {
 }
 
 .h1-text {
-    text: center;
+    text-align: center;
+}
