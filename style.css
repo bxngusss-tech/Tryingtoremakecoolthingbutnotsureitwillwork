@@ -28,7 +28,9 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: none;
+    border-width: 50px;
+    border-color: #000000;
+    border-style: solid
 }
 
 .game-link-geometry-dash {
@@ -44,7 +46,9 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: none;
+    border-width: 50px;
+    border-color: #000000;
+    border-style: solid
 }
 
 .game-link-bitlife {
@@ -60,7 +64,9 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: none;
+    border-width: 50px;
+    border-color: #000000;
+    border-style: solid
 }
 
 .game-link-clustertruck {
@@ -76,7 +82,9 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: none;
+    border-width: 50px;
+    border-color: #000000;
+    border-style: solid
 }
 
 .game-link-drive-mad {
@@ -92,7 +100,45 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: none;
+    border-width: 50px;
+    border-color: #000000;
+    border-style: solid
+}
+
+.game-link-polytrack {
+    border-radius: 50px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: #FFFFFF;
+    color: #ADD8E6;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-width: 50px;
+    border-color: #000000;
+    border-style: solid
+}
+
+.game-link-duck-life {
+    border-radius: 50px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: #FFFFFF;
+    color: #ADD8E6;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-width: 50px;
+    border-color: #000000;
+    border-style: solid
 }
 
 .h1-text {
