@@ -207,7 +207,7 @@ body {
 }
 
 .top-navbar {
-    background-color: #007bff;
+    background-color: #46607d;
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -222,7 +222,7 @@ body {
     padding: 15px 25px;
     font-weight: bold;
     text-decoration: none;
-    background-color: #0056b3; 
+    background-color: #32698a; 
     display: inline-block;
 }
 
