@@ -1,19 +1,4 @@
-body {
-    margin: 0;
-    background-color: #ADD8E6;
-    padding: 40px;
-    font-family: 'Share Tech Mono', monospace;
-    display: flex;
-    justify-content: center;
-}
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    max-width: 1200px;
-    justify-content: center;
-}
 
 .app-link-spotify {
     border-radius: 50px;
@@ -37,179 +22,54 @@ body {
     background-repeat: no-repeat;
 }
 
-.game-link-geometry-dash {
-    border-radius: 50px;
-    display: flex;
-    width: 150px;
-    height: 150px;
-    background-color: #FFFFFF;
-    color: #000000;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-width: 5px;
-    border-color: #ADD8E6;
-    border-style: solid
-    background-image: url('');
-    background-size: cover;          
-    background-position: center;  
-    background-repeat: no-repeat;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e5e5e5;
 }
 
-.game-link-bitlife {
-    border-radius: 50px;
+
+.top-navbar {
+    background-color: #111111; 
+    width: 100%;
     display: flex;
-    width: 150px;
-    height: 150px;
-    background-color: #FFFFFF;
-    color: #000000;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-width: 5px;
-    border-color: #ADD8E6;
-    border-style: solid
-    background-image: url('');
-    background-size: cover;          
-    background-position: center;  
-    background-repeat: no-repeat;
+    justify-content: flex-start;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-.game-link-clustertruck {
-    border-radius: 50px;
-    display: flex;
-    width: 150px;
-    height: 150px;
-    background-color: #FFFFFF;
-    color: #000000;
-    text-decoration: none;
+
+.nav-tab {
+    color: #ffffff;
+    padding: 15px 25px;
     font-weight: bold;
-    font-size: 1.2rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-width: 5px;
-    border-color: #ADD8E6;
-    border-style: solid
-    background-image: url('');
-    background-size: cover;          
-    background-position: center;  
-    background-repeat: no-repeat;
+    text-decoration: none;
+    background-color: #0066cc; 
+    display: inline-block;
 }
 
-.game-link-drive-mad {
-    border-radius: 50px;
-    display: flex;
-    width: 150px;
-    height: 150px;
-    background-color: #FFFFFF;
-    color: #000000;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-width: 5px;
-    border-color: #ADD8E6;
-    border-style: solid
-    background-image: url('');
-    background-size: cover;          
-    background-position: center;  
-    background-repeat: no-repeat;
+
+.games-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 20px;                            
+    padding: 40px 20px;  
+    max-width: 1200px;                    
+    margin: 0 auto;                       
+    box-sizing: border-box;
 }
 
-.game-link-polytrack {
-    border-radius: 50px;
-    display: flex;
-    width: 150px;
-    height: 150px;
-    background-color: #FFFFFF;
-    color: #000000;
+
+.games-container a {
     text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2rem;
-    justify-content: center;
-    align-items: center;
+    color: #111111;          
+    background-color: #ffffff;
+    border: 3px solid #111111; 
+    border-radius: 8px;      
+    padding: 25px 15px;       
     text-align: center;
-    border-width: 5px;
-    border-color: #ADD8E6;
-    border-style: solid
-    background-image: url('');
-    background-size: cover;          
-    background-position: center;  
-    background-repeat: no-repeat;
+    display: block;           
+    box-shadow: 4px 4px 0px #111111; 
 }
-
-.game-link-duck-life {
-    border-radius: 50px;
-    display: flex;
-    width: 150px;
-    height: 150px;
-    background-color: #FFFFFF;
-    color: #000000;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-width: 5px;
-    border-color: #ADD8E6;
-    border-style: solid
-    background-image: url('');
-    background-size: cover;          
-    background-position: center;  
-    background-repeat: no-repeat;
-}
-
-.game-link-run3 {
-    border-radius: 50px;
-    display: flex;
-    width: 150px;
-    height: 150px;
-    background-color: #FFFFFF;
-    color: #000000;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-width: 5px;
-    border-color: #ADD8E6;
-    border-style: solid
-    background-image: url('');
-    background-size: cover;          
-    background-position: center;  
-    background-repeat: no-repeat;
-}
-
-.game-link-bottleflip {
-    border-radius: 50px;
-    display: flex;
-    width: 150px;
-    height: 150px;
-    background-color: #FFFFFF;
-    color: #000000;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-width: 5px;
-    border-color: #ADD8E6;
-    border-style: solid
-    background-image: url('');
-    background-size: cover;          
-    background-position: center;  
-    background-repeat: no-repeat;
-
-   
