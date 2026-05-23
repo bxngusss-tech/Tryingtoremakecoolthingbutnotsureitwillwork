@@ -53,8 +53,8 @@ html, body {
 
 
 .proxy-frame {
-    width: calc(100vh - 120px);
-    flex-grow: 1; 
+    width: 100vw;               
+    height: calc(100vh - 120px);
     border: none;
     background-color: #ffffff;
-}
+    display: block;
