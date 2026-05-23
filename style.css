@@ -21,7 +21,7 @@ body {
     width: 150px;
     height: 150px;
     background-color: #FFFFFF;
-    color: #ADD8E6;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
@@ -39,7 +39,7 @@ body {
     width: 150px;
     height: 150px;
     background-color: #FFFFFF;
-    color: #ADD8E6;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
@@ -57,7 +57,7 @@ body {
     width: 150px;
     height: 150px;
     background-color: #FFFFFF;
-    color: #ADD8E6;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
@@ -75,7 +75,7 @@ body {
     width: 150px;
     height: 150px;
     background-color: #FFFFFF;
-    color: #ADD8E6;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
@@ -93,7 +93,7 @@ body {
     width: 150px;
     height: 150px;
     background-color: #FFFFFF;
-    color: #ADD8E6;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
@@ -111,7 +111,7 @@ body {
     width: 150px;
     height: 150px;
     background-color: #FFFFFF;
-    color: #ADD8E6;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
@@ -129,7 +129,7 @@ body {
     width: 150px;
     height: 150px;
     background-color: #FFFFFF;
-    color: #ADD8E6;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
@@ -138,6 +138,42 @@ body {
     text-align: center;
     border-width: 5px;
     border-color: #ADD8E6;
+    border-style: solid
+}
+
+.game-link-run3 {
+    border-radius: 50px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-width: 5px;
+    border-color: #000000;
+    border-style: solid
+}
+
+.game-link-bottleflip {
+    border-radius: 50px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-width: 5px;
+    border-color: #000000;
     border-style: solid
 }
 
