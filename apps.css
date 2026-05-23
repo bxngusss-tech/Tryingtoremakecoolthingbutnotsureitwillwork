@@ -1,20 +1,20 @@
 
 html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    overflow: hidden; 
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    overflow: hidden;
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    background-color: #e5e5e5; 
+    background-color: #e5e5e5;
 }
 
 
 .top-navbar {
     background-color: #111111; 
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: flex-start;
     flex-shrink: 0; 
@@ -38,9 +38,10 @@ html, body {
 
 .page-header {
     background-color: #ffffff;
-    padding: 15px 20px;
+    padding: 15px 0;
     border-bottom: 3px solid #111111;
     text-align: center;
+    width: 100vw;
     flex-shrink: 0;
 }
 
@@ -48,13 +49,15 @@ html, body {
     margin: 0;
     font-size: 24px;
     color: #111111;
-    text-transform: lowercase; 
+    text-transform: lowercase;
 }
 
 
 .proxy-frame {
-    width: 100vw;               
-    height: calc(100vh - 120px);
-    border: none;
+    width: 100vw !important;
+    height: 100% !important;
+    flex-grow: 1 !important; 
+    border: none !important;
     background-color: #ffffff;
-    display: block;
+    display: block !important;
+}
