@@ -221,6 +221,8 @@ body {
     background-color: #f0f0f0;
 }
 
+/* Header Tab Bar at the top of the page */
+.top-navbar {
     background-color: #007bff;
     width: 100%;
     display: flex;
@@ -241,17 +243,19 @@ body {
 }
 
 .games-container {
-    display: flex;
-    flex-wrap: wrap;      
-    justify-content: center; 
-    gap: 15px;            
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 15px;                         
     padding: 40px 20px;  
-    width: 100%;
+    max-width: 1200px;                  
+    margin: 0 auto;                     
     box-sizing: border-box;
 }
 
 .games-container a {
     text-decoration: none;
     color: black;
-    padding: 5px 10px;
+    padding: 10px;
+    text-align: center;
+    display: block;                   
 }
