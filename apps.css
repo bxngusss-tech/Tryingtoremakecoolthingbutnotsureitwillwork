@@ -211,4 +211,29 @@ body {
     background-size: cover;          
     background-position: center;  
     background-repeat: no-repeat;
+
+   
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; 
+    margin-bottom: 20px;
+    width: 100%;
 }
+
+
+.large-btn {
+    font-size: 20px;         
+    padding: 15px 40px;      
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 30px;      
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+
+
