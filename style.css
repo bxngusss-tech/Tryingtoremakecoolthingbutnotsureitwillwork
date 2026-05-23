@@ -214,4 +214,44 @@ body {
 }
 
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+}
 
+    background-color: #007bff;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-tab {
+    color: white;
+    padding: 15px 25px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #0056b3; 
+    display: inline-block;
+}
+
+.games-container {
+    display: flex;
+    flex-wrap: wrap;      
+    justify-content: center; 
+    gap: 15px;            
+    padding: 40px 20px;  
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.games-container a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
